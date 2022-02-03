@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta charset="ISO-8859-1">
+<title>Página de Cadastro</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<form class="form-horizontal" action="cadastrar" method="post">
+<fieldset class="campo">
+<div>
+    <h3 style="color:#4F4D8C">Cadastro de Cliente</h3>
+    
+    <div>
+<div>
+
+<div>
+  <label>Nome <h11>*</h11></label>  
+  <div>
+  <input name="nome" placeholder="Insira seu Nome" required="required" type="text" class="wid500">
+  </div>
+  
+  <label>Sobrenome <h11>*</h11></label>  
+  <div>
+  <input name="sobrenome" placeholder="Insira seu Sobrenome" required="required" type="text" class="wid500">
+  </div>
+</div>
+
+ </div>
+  </div>
+   </div>
+
+<div class="padd20"> 
+	<label>Selecione seu gênero</label><br>
+    <label >
+      <input name="genero" value="feminino" type="radio" required="required">
+      Feminino
+    </label> 
+    <label>
+      <input name="genero" value="masculino" type="radio" required="required">
+      Masculino
+    </label>
+     </div>
+    
+    <div  class="padd20">
+  <label>Email <h11>*</h11></label>
+  <div>
+    <div>
+      <span><i></i></span>
+      <input class="wid500" name="email" placeholder="email@email.com" required="required" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" >
+    </div>
+  </div>
+</div>
+
+  <div  class="padd20" >
+    <div>
+      <span style="color:#4F4D8C">Nº <h11>*</h11></span><br>
+      <input class="wid300" name="numero" placeholder="Insira seu número preferido" required="required"  type="number">
+    </div>
+ </div>
+ 
+ <div class="padd20">
+ <button type="submit">Enviar!</button>
+ </div>
+ 
+ </fieldset>
+</form>
+
+</body>
+</html>

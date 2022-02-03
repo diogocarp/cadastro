@@ -1,0 +1,97 @@
+@charset "ISO-8859-1";
+
+body{
+	
+	background-image: url(white-cube-pattern-4k-bu.jpg);
+	
+	
+}
+	
+h11 {
+	
+    color:red;
+}
+
+#logo {
+	
+        width:50%;
+        height:50%;
+        
+}
+
+.panel-heading{
+	
+    font-size:150%;
+    
+}
+
+.form-horizontal{
+	
+	width:500px;
+	position:absolute;
+	top:20%;
+	left:35%;
+	
+	
+	
+}
+
+.padd20{
+
+
+	padding-top:20px;
+	
+}
+
+.wid500{
+
+	width:500px;
+	height:30px;
+	border: #4F4D8C solid 2px;
+	border-radius:10px;
+
+}
+
+.wid300{
+
+	width:300px;
+	border: #4F4D8C solid 2px;
+	border-radius:10px;
+	height:30px;
+}
+
+label{
+
+	color:#4F4D8C;
+
+}
+
+.campo{
+
+	
+	border-radius: 30px;
+	border:#4F4D8C solid 5px;
+	background-color:white;
+
+}
+
+button{
+	
+	width:60px;
+	height:30px; 
+	color:#4F4D8C; 
+	background-color:white; 
+	border-radius:10px;
+	
+	
+}
+
+button:hover{
+	
+	background-color:#4F4D8C;
+	color:white;
+	cursor: pointer;
+	
+	
+	
+}

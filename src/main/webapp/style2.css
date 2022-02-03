@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+.titulo{
+	margin:120px;
+	color: #4F4D8C;
+	font-family: fantasy;
+	font-size: 60px;
+	text-align: center;
+	
+	
+}
+
+.texto{
+	
+	color: #4F4D8C;
+	font-family: fantasy;
+	font-size: 40px;
+	text-align: center;
+	
+	
+}
+
+body{
+	
+	
+	background-image: url(white-cube-pattern-4k-bu.jpg);
+	
+	
+	
+}
